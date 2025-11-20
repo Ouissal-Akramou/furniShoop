@@ -1,0 +1,526 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Saira", sans-serif;
+  overflow-x: hidden;   
+    width: 100%;
+    background-color: #FFFFFF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+margin-left: 130px; 
+position: absolute;
+  z-index: 10;
+  width: 90%;
+
+
+}
+nav {
+    margin-right: 130px;
+}
+ nav a {
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-content h1 {
+font-weight: 600;
+font-size: 59px;
+line-height: 120%;
+text-transform: capitalize;
+}
+.hero-content p{
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 1%;
+
+}
+.btn1 {
+  width: 257px;
+  height: 62px;
+  background: #E2E2E266; 
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  border: none;
+  padding: 16px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  left: 35%;
+  margin-top: 5%;
+  font-weight: 600;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 1%;
+color: #fff;
+}
+
+
+.hero{
+  position: relative;
+  height: 100vh;
+  background-image: url(img/modern-living-room-interior-2021-09-02-08-41-17-utc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+  width: 60%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+margin-left: 130px; 
+position: absolute;
+  z-index: 10;
+  width: 90%;
+
+
+}
+nav {
+    margin-right: 130px;
+}
+ nav a {
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.hero-content h1 {
+font-weight: 600;
+font-size: 59px;
+line-height: 120%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.hero-content p{
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 1%;
+color: #FFFFFF;
+
+}
+.btn1 {
+  width: 257px;
+  height: 62px;
+  background: #E2E2E266; 
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+  border: none;
+  padding: 16px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 1;
+  left: 35%;
+  margin-top: 5%;
+  font-weight: 600;
+font-size: 15px;
+line-height: 150%;
+letter-spacing: 1%;
+}
+
+
+.hero{
+  position: relative;
+  height: 100vh;
+  background-image: url(img/modern-living-room-interior-2021-09-02-08-41-17-utc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  text-align: center;
+  width: 60%;
+}
+.stats {
+     background: #236E69;   
+   padding: 25px 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  max-width: 1100px;
+  margin-top:-60px;
+  position: relative;
+  z-index: 20;
+margin-left: 10%;
+  
+}
+.stat {
+  text-align: center;
+  font-family: sans-serif;
+}
+.stat h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.stat p {
+  margin: 3px 0 0;
+  font-size: 13px;
+  line-height: 1.2;
+  opacity: 0.9;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+background-color: #ccc}
+
+.section3 {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.img-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.card span {
+margin-left: 35%;
+}
+
+.content h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #23262F;
+}
+
+.content p {
+    color: #23262F;
+    margin-bottom: 25px;
+    font-size: 14px;
+    max-width: 420px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.feature img {
+    width: 30px;
+}
+
+.feature-cont h1 {
+    font-size: 17px;
+    margin: 0 0 6px 0;
+    font-weight: 600;
+}
+
+.feature-cont p {
+    margin: 0;
+    font-size: 13px;
+    color: #6b7280;
+    max-width: 430px;
+    line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+    section {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 26px;
+    }
+}
+.new-store {
+   display: flex;
+   justify-content: space-between;
+}
+
+.store-left h2 {
+    margin-bottom: 15px;
+font-weight: 600;
+font-size: 40px;
+line-height: 130%;
+text-transform: capitalize;
+margin-left: 200px;
+color: #23262F;
+}
+
+.store-left p {
+    color: #23262F;
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+}
+
+.check-all {
+    color: #23262F;
+    font-weight: 600;
+    text-decoration: none;margin-left: 200px;
+
+}
+
+.store-cards {
+    display: flex;
+    gap: 18px;
+    margin-right: -60px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 265;
+height: 400;
+opacity: 1;
+border-radius: 5px;
+
+}
+
+.card img {
+     width: 265;
+height: 400;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card span {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.people-say {
+    max-width: 1300px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.say-left h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #23262F;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.josh{
+    color: #23262F;
+}
+.role {
+    color: #23262F;
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.quote {
+    font-size: 15px;
+    color: #23262F;
+    max-width: 450px;
+}
+
+
+.say-right img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.say-left {
+    margin-left: 90px;
+}
+
+@media (max-width: 900px) {
+    .new-store,
+    .people-say {
+        grid-template-columns: 1fr;
+    }
+
+    .store-cards {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.newsletter {
+    background-image: url("img/Rectangle\ 928.png");
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;
+    
+    padding: 120px 50px;   
+    color: #FFFFFF;
+     
+}
+
+.lamp {
+    width: 280px;
+}
+
+.newsletter-content h2 {
+    font-size: 36px;
+    margin-left: 60%;
+font-weight: 600;
+font-size: 40px;
+line-height: 135%;
+letter-spacing: 0%;
+
+}
+
+.newsletter-content p {
+        margin-left: 60%;
+font-weight: 400;
+font-size: 15px;
+line-height: 100%;
+margin-top: -20px;
+margin-bottom: 20px;
+
+
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row input {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px  4px;
+    width: 260px;
+        margin-left: 60%;
+
+}
+
+.form-row button {
+    padding: 12px 25px;
+    border: none;
+    background: #23262F;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius:  4px 4px ;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 10px;
+}
+
+.form-row button:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background: #1f2331;
+    color: #ddd;
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.social-icons  {
+   display: flex;
+   justify-content: space-between;
+}
+.social-icons img{
+margin-left: 10px;}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.col h4 {
+    color: #fff;
+    margin-bottom: 10px;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+
+}
+.line {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+    margin-top: 60px;
+        margin-bottom: 60px;
+
+}
+
+
+.col p {
+    margin: 5px 0;
+    color: #aaa;
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-top: 40px;
+}
